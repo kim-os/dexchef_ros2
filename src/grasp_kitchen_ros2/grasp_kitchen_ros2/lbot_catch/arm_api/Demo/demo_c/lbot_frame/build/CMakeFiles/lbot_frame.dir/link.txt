@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/lbot_frame.dir/src/main.c.o -o lbot_frame  -Wl,-rpath,/home/mfj/api_lk73/private/C/libs/linux/linux_x64 /home/mfj/api_lk73/private/C/libs/linux/linux_x64/liblbot_api.so 

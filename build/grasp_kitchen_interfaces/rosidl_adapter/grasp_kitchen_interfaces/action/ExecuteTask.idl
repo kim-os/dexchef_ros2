@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from grasp_kitchen_interfaces/action/ExecuteTask.action
+// generated code does not contain a copyright notice
+
+#include "grasp_kitchen_interfaces/msg/TaskTarget.idl"
+
+module grasp_kitchen_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct ExecuteTask_Goal {
+      string task_id;
+
+      string task_type;
+
+      grasp_kitchen_interfaces::msg::TaskTarget target;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct ExecuteTask_Result {
+      boolean success;
+
+      string error_msg;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct ExecuteTask_Feedback {
+      @verbatim (language="comment", text=
+        "e.g. \"planning\", \"moving_to_pregrasp\", \"grasping\", \"placing\"")
+      string phase;
+
+      @verbatim (language="comment", text=
+        "0.0 - 1.0")
+      float progress;
+    };
+  };
+};

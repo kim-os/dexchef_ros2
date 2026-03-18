@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from grasp_kitchen_interfaces/srv/SetIO.srv
+// generated code does not contain a copyright notice
+
+
+module grasp_kitchen_interfaces {
+  module srv {
+    struct SetIO_Request {
+      string io_name;
+
+      boolean state;
+    };
+    struct SetIO_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

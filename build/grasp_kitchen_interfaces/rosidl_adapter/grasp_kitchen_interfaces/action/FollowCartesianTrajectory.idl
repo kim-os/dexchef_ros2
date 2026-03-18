@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from grasp_kitchen_interfaces/action/FollowCartesianTrajectory.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module grasp_kitchen_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct FollowCartesianTrajectory_Goal {
+      sequence<geometry_msgs::msg::Pose> waypoints;
+
+      float max_velocity;
+
+      float max_acceleration;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct FollowCartesianTrajectory_Result {
+      boolean success;
+
+      string error_msg;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct FollowCartesianTrajectory_Feedback {
+      uint32 current_index;
+
+      geometry_msgs::msg::Pose current_pose;
+    };
+  };
+};

@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/grasp_kitchen_interfaces__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "grasp_kitchen_interfaces::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "grasp_kitchen_interfaces__py::@75cba9033063ca3ddd4a",
+	"name" : "grasp_kitchen_interfaces__py",
+	"paths" : 
+	{
+		"build" : "grasp_kitchen_interfaces__py",
+		"source" : "/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/grasp_kitchen_interfaces__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/grasp_kitchen_interfaces__py/CMakeFiles/grasp_kitchen_interfaces__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/grasp_kitchen_interfaces__py/CMakeFiles/grasp_kitchen_interfaces__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/rosidl_generator_py/grasp_kitchen_interfaces/_grasp_kitchen_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

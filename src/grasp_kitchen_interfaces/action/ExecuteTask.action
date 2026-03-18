@@ -1,0 +1,15 @@
+# Goal
+string task_id
+string task_type
+TaskTarget target
+
+---
+# Result
+bool success
+string error_msg
+
+---
+# Feedback
+string phase        # e.g. "planning", "moving_to_pregrasp", "grasping", "placing"
+float32 progress    # 0.0 - 1.0
+

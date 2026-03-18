@@ -1,0 +1,3 @@
+string task_type          # e.g. "pick_and_place_pattern"
+string target_class       # e.g. "orange_heart"
+string scene_id           # optional: tie to perception scene

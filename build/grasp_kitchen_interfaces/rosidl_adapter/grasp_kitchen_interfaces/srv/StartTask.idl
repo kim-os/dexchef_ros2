@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from grasp_kitchen_interfaces/srv/StartTask.srv
+// generated code does not contain a copyright notice
+
+
+module grasp_kitchen_interfaces {
+  module srv {
+    struct StartTask_Request {
+      @verbatim (language="comment", text=
+        "e.g. \"pick_and_place_pattern\"")
+      string task_type;
+
+      @verbatim (language="comment", text=
+        "e.g. \"orange_heart\"")
+      string target_class;
+
+      @verbatim (language="comment", text=
+        "optional: tie to perception scene")
+      string scene_id;
+    };
+    struct StartTask_Response {
+      boolean accepted;
+
+      string message;
+    };
+  };
+};

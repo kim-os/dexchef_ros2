@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lbot_move.dir/src/main.cpp.o -o lbot_move  -Wl,-rpath,/home/mfj/api_lk73/private/C++/libs/linux/linux_x64 /home/mfj/api_lk73/private/C++/libs/linux/linux_x64/liblbot_api_cpp.so 

@@ -1,0 +1,1 @@
+/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/rosidl_generator_py/grasp_kitchen_interfaces/_grasp_kitchen_interfaces_s.ep.rosidl_typesupport_c.c

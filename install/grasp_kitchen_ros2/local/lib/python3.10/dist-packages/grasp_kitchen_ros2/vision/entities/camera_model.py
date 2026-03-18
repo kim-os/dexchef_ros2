@@ -1,0 +1,1 @@
+/home/kim/projects/dexchef_ws/src/grasp_kitchen_ros2/grasp_kitchen_ros2/vision/entities/camera_model.py

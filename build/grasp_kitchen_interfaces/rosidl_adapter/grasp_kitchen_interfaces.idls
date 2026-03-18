@@ -1,0 +1,7 @@
+/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/rosidl_adapter/grasp_kitchen_interfaces:msg/ObjectDetection.idl
+/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/rosidl_adapter/grasp_kitchen_interfaces:msg/ScenePerception.idl
+/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/rosidl_adapter/grasp_kitchen_interfaces:msg/TaskTarget.idl
+/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/rosidl_adapter/grasp_kitchen_interfaces:srv/SetIO.idl
+/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/rosidl_adapter/grasp_kitchen_interfaces:srv/StartTask.idl
+/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/rosidl_adapter/grasp_kitchen_interfaces:action/ExecuteTask.idl
+/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/rosidl_adapter/grasp_kitchen_interfaces:action/FollowCartesianTrajectory.idl

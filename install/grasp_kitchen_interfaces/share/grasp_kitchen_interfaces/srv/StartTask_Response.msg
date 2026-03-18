@@ -1,0 +1,1 @@
+/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/rosidl_cmake/srv/StartTask_Response.msg

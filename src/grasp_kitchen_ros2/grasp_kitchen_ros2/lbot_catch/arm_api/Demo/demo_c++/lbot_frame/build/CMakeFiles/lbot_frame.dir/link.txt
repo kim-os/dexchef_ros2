@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lbot_frame.dir/src/main.cpp.o -o lbot_frame  -Wl,-rpath,/home/mfj/lbot_arm_v2_ws/lbot_api/C++/linux/linux_x64 /home/mfj/lbot_arm_v2_ws/lbot_api/C++/linux/linux_x64/liblbot_api_cpp.so 

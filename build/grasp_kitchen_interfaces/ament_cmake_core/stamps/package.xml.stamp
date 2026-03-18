@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>grasp_kitchen_interfaces</name>
+  <version>0.1.0</version>
+  <description>Custom ROS 2 interfaces (msg, srv, action) for grasp_kitchen_ros2 project</description>
+  <maintainer email="your_real_email@example.com">俊凯 (Kim)</maintainer>
+  <license>Apache-2.0</license>  <!-- 或 MIT, BSD 等，根据你的项目选择 -->
+
+  <!-- 构建工具 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 接口生成工具（build 时需要） -->
+  <build_depend>rosidl_default_generators</build_depend>
+
+  <!-- 运行时依赖（生成后的接口需要） -->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <!-- 消息依赖 -->
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- 测试工具（可选，但推荐保留） -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- 标识这是一个接口包 -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

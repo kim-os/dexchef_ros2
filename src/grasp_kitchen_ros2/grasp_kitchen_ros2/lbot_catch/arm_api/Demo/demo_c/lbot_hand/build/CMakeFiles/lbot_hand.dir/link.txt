@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/lbot_hand.dir/src/main.c.o -o lbot_hand  -Wl,-rpath,/home/mfj/api_lk73/private/C/libs/linux/linux_x64 /home/mfj/api_lk73/private/C/libs/linux/linux_x64/liblbot_api.so 

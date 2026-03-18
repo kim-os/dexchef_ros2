@@ -1,0 +1,365 @@
+[0.010s] Invoking command in '/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kim/projects/dexchef_ws/src/grasp_kitchen_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces
+[0.174s] -- The C compiler identification is GNU 11.4.0
+[0.350s] -- The CXX compiler identification is GNU 11.4.0
+[0.433s] -- Detecting C compiler ABI info
+[0.506s] -- Detecting C compiler ABI info - done
+[0.511s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.512s] -- Detecting C compile features
+[0.512s] -- Detecting C compile features - done
+[0.515s] -- Detecting CXX compiler ABI info
+[0.593s] -- Detecting CXX compiler ABI info - done
+[0.597s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.597s] -- Detecting CXX compile features
+[0.598s] -- Detecting CXX compile features - done
+[0.605s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.704s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.750s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.778s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.781s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.788s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.880s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.912s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.195s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.360s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.575s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.623s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.624s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.761s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.761s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.761s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.761s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.775s] -- Found PythonExtra: .so  
+[1.836s] -- Configuring done
+[1.873s] -- Generating done
+[1.881s] -- Build files have been written to: /home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces
+[1.887s] Invoked command in '/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kim/projects/dexchef_ws/src/grasp_kitchen_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces
+[1.889s] Invoking command in '/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces -- -j16 -l16
+[1.913s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.921s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.924s] [  2%] Built target ament_cmake_python_symlink_grasp_kitchen_interfaces
+[2.070s] running egg_info
+[2.070s] creating grasp_kitchen_interfaces.egg-info
+[2.070s] writing grasp_kitchen_interfaces.egg-info/PKG-INFO
+[2.070s] writing dependency_links to grasp_kitchen_interfaces.egg-info/dependency_links.txt
+[2.071s] writing top-level names to grasp_kitchen_interfaces.egg-info/top_level.txt
+[2.071s] writing manifest file 'grasp_kitchen_interfaces.egg-info/SOURCES.txt'
+[2.073s] reading manifest file 'grasp_kitchen_interfaces.egg-info/SOURCES.txt'
+[2.073s] writing manifest file 'grasp_kitchen_interfaces.egg-info/SOURCES.txt'
+[2.090s] [  2%] Built target ament_cmake_python_build_grasp_kitchen_interfaces_egg
+[2.540s] [  2%] Built target grasp_kitchen_interfaces__cpp
+[2.540s] [  3%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/grasp_kitchen_interfaces/msg/detail/object_detection__functions.c.o[0m
+[2.542s] [  5%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/grasp_kitchen_interfaces/msg/detail/scene_perception__functions.c.o[0m
+[2.542s] [  6%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/grasp_kitchen_interfaces/srv/detail/set_io__functions.c.o[0m
+[2.542s] [  7%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/grasp_kitchen_interfaces/msg/detail/task_target__functions.c.o[0m
+[2.543s] [  8%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/grasp_kitchen_interfaces/srv/detail/start_task__functions.c.o[0m
+[2.544s] [ 10%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/grasp_kitchen_interfaces/action/detail/follow_cartesian_trajectory__functions.c.o[0m
+[2.544s] [ 11%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/grasp_kitchen_interfaces/action/detail/execute_task__functions.c.o[0m
+[2.550s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.550s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.553s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.669s] [ 16%] [32m[1mLinking C shared library libgrasp_kitchen_interfaces__rosidl_generator_c.so[0m
+[2.752s] [ 16%] Built target grasp_kitchen_interfaces__rosidl_generator_c
+[2.759s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.760s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.760s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.015s] [ 21%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grasp_kitchen_interfaces/msg/object_detection__type_support.cpp.o[0m
+[3.015s] [ 22%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grasp_kitchen_interfaces/action/execute_task__type_support.cpp.o[0m
+[3.016s] [ 24%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grasp_kitchen_interfaces/srv/start_task__type_support.cpp.o[0m
+[3.017s] [ 25%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grasp_kitchen_interfaces/msg/scene_perception__type_support.cpp.o[0m
+[3.018s] [ 26%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grasp_kitchen_interfaces/action/follow_cartesian_trajectory__type_support.cpp.o[0m
+[3.019s] [ 29%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grasp_kitchen_interfaces/msg/task_target__type_support.cpp.o[0m
+[3.019s] [ 29%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grasp_kitchen_interfaces/srv/set_io__type_support.cpp.o[0m
+[3.100s] [ 30%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grasp_kitchen_interfaces/msg/detail/object_detection__type_support.cpp.o[0m
+[3.101s] [ 32%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grasp_kitchen_interfaces/msg/detail/scene_perception__type_support.cpp.o[0m
+[3.101s] [ 32%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grasp_kitchen_interfaces/msg/detail/task_target__type_support.cpp.o[0m
+[3.101s] [ 34%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grasp_kitchen_interfaces/srv/detail/set_io__type_support.cpp.o[0m
+[3.101s] [ 35%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grasp_kitchen_interfaces/srv/detail/start_task__type_support.cpp.o[0m
+[3.442s] [ 36%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/msg/object_detection__type_support.cpp.o[0m
+[3.504s] [ 37%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/msg/scene_perception__type_support.cpp.o[0m
+[3.507s] [ 39%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grasp_kitchen_interfaces/action/detail/execute_task__type_support.cpp.o[0m
+[3.507s] [ 40%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grasp_kitchen_interfaces/action/detail/follow_cartesian_trajectory__type_support.cpp.o[0m
+[3.510s] [ 41%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/msg/task_target__type_support.cpp.o[0m
+[3.528s] [ 43%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grasp_kitchen_interfaces/msg/detail/dds_fastrtps/object_detection__type_support.cpp.o[0m
+[3.536s] [ 44%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/srv/set_io__type_support.cpp.o[0m
+[3.543s] [ 45%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/srv/start_task__type_support.cpp.o[0m
+[3.555s] [ 46%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grasp_kitchen_interfaces/msg/detail/dds_fastrtps/scene_perception__type_support.cpp.o[0m
+[3.576s] [ 48%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/action/execute_task__type_support.cpp.o[0m
+[3.586s] [ 49%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/action/follow_cartesian_trajectory__type_support.cpp.o[0m
+[3.612s] [ 50%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grasp_kitchen_interfaces/msg/detail/dds_fastrtps/task_target__type_support.cpp.o[0m
+[3.685s] [ 51%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grasp_kitchen_interfaces/srv/detail/dds_fastrtps/set_io__type_support.cpp.o[0m
+[3.696s] [ 53%] [32m[1mLinking CXX shared library libgrasp_kitchen_interfaces__rosidl_typesupport_c.so[0m
+[3.722s] [ 54%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grasp_kitchen_interfaces/srv/detail/dds_fastrtps/start_task__type_support.cpp.o[0m
+[3.729s] [ 55%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grasp_kitchen_interfaces/action/detail/dds_fastrtps/execute_task__type_support.cpp.o[0m
+[3.729s] [ 56%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grasp_kitchen_interfaces/action/detail/dds_fastrtps/follow_cartesian_trajectory__type_support.cpp.o[0m
+[3.828s] [ 58%] [32m[1mLinking CXX shared library libgrasp_kitchen_interfaces__rosidl_typesupport_cpp.so[0m
+[3.841s] [ 58%] Built target grasp_kitchen_interfaces__rosidl_typesupport_c
+[3.848s] [ 59%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grasp_kitchen_interfaces/msg/detail/object_detection__type_support.c.o[0m
+[3.857s] [ 60%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grasp_kitchen_interfaces/msg/detail/scene_perception__type_support.c.o[0m
+[3.862s] [ 62%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grasp_kitchen_interfaces/msg/detail/task_target__type_support.c.o[0m
+[3.894s] [ 63%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grasp_kitchen_interfaces/srv/detail/start_task__type_support.c.o[0m
+[3.895s] [ 64%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grasp_kitchen_interfaces/srv/detail/set_io__type_support.c.o[0m
+[3.921s] [ 65%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grasp_kitchen_interfaces/action/detail/follow_cartesian_trajectory__type_support.c.o[0m
+[3.921s] [ 67%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grasp_kitchen_interfaces/action/detail/execute_task__type_support.c.o[0m
+[3.936s] [ 68%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grasp_kitchen_interfaces/msg/detail/object_detection__type_support_c.cpp.o[0m
+[3.938s] [ 69%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grasp_kitchen_interfaces/msg/detail/scene_perception__type_support_c.cpp.o[0m
+[3.962s] [ 72%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grasp_kitchen_interfaces/msg/detail/task_target__type_support_c.cpp.o[0m
+[3.962s] [ 72%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grasp_kitchen_interfaces/srv/detail/set_io__type_support_c.cpp.o[0m
+[3.967s] [ 72%] Built target grasp_kitchen_interfaces__rosidl_typesupport_cpp
+[3.984s] [ 73%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grasp_kitchen_interfaces/srv/detail/start_task__type_support_c.cpp.o[0m
+[3.999s] [ 75%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grasp_kitchen_interfaces/action/detail/execute_task__type_support_c.cpp.o[0m
+[3.999s] [ 75%] [32m[1mLinking C shared library libgrasp_kitchen_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.146s] [ 75%] Built target grasp_kitchen_interfaces__rosidl_typesupport_introspection_c
+[4.157s] [ 77%] [32mBuilding CXX object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grasp_kitchen_interfaces/action/detail/follow_cartesian_trajectory__type_support_c.cpp.o[0m
+[4.555s] [ 78%] [32m[1mLinking CXX shared library libgrasp_kitchen_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.610s] [ 79%] [32m[1mLinking CXX shared library libgrasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.618s] [ 81%] [32m[1mLinking CXX shared library libgrasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.665s] [ 81%] Built target grasp_kitchen_interfaces__rosidl_typesupport_introspection_cpp
+[4.729s] [ 81%] Built target grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c
+[4.729s] [ 81%] Built target grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.743s] [ 81%] Built target grasp_kitchen_interfaces
+[4.756s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.841s] [ 82%] Built target grasp_kitchen_interfaces__py
+[5.857s] [ 83%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/grasp_kitchen_interfaces/msg/_object_detection_s.c.o[0m
+[5.857s] [ 84%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/grasp_kitchen_interfaces/msg/_scene_perception_s.c.o[0m
+[5.858s] [ 86%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/grasp_kitchen_interfaces/srv/_start_task_s.c.o[0m
+[5.859s] [ 87%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/grasp_kitchen_interfaces/srv/_set_io_s.c.o[0m
+[5.860s] [ 88%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/grasp_kitchen_interfaces/action/_execute_task_s.c.o[0m
+[5.861s] [ 89%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/grasp_kitchen_interfaces/msg/_task_target_s.c.o[0m
+[5.862s] [ 91%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/grasp_kitchen_interfaces/action/_follow_cartesian_trajectory_s.c.o[0m
+[6.012s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/grasp_kitchen_interfaces/libgrasp_kitchen_interfaces__rosidl_generator_py.so[0m
+[6.089s] [ 92%] Built target grasp_kitchen_interfaces__rosidl_generator_py
+[6.102s] [ 93%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/grasp_kitchen_interfaces/_grasp_kitchen_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.102s] [ 94%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/grasp_kitchen_interfaces/_grasp_kitchen_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.102s] [ 96%] [32mBuilding C object CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/grasp_kitchen_interfaces/_grasp_kitchen_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.203s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/grasp_kitchen_interfaces/grasp_kitchen_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.204s] [100%] [32m[1mLinking C shared library rosidl_generator_py/grasp_kitchen_interfaces/grasp_kitchen_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.204s] [100%] [32m[1mLinking C shared library rosidl_generator_py/grasp_kitchen_interfaces/grasp_kitchen_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.247s] [100%] Built target grasp_kitchen_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.247s] [100%] Built target grasp_kitchen_interfaces__rosidl_typesupport_c__pyext
+[6.248s] [100%] Built target grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.257s] Invoked command in '/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces -- -j16 -l16
+[6.263s] Invoking command in '/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces
+[6.268s] -- Install configuration: ""
+[6.268s] -- Execute custom install script
+[6.269s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/ament_index/resource_index/rosidl_interfaces/grasp_kitchen_interfaces
+[6.275s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/execute_task__functions.h
+[6.280s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/execute_task__struct.h
+[6.285s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/execute_task__type_support.h
+[6.290s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/follow_cartesian_trajectory__functions.h
+[6.295s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/follow_cartesian_trajectory__struct.h
+[6.301s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/follow_cartesian_trajectory__type_support.h
+[6.306s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/execute_task.h
+[6.311s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/follow_cartesian_trajectory.h
+[6.316s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/object_detection__functions.h
+[6.321s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/object_detection__struct.h
+[6.326s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/object_detection__type_support.h
+[6.331s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/scene_perception__functions.h
+[6.337s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/scene_perception__struct.h
+[6.342s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/scene_perception__type_support.h
+[6.346s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/task_target__functions.h
+[6.352s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/task_target__struct.h
+[6.357s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/task_target__type_support.h
+[6.362s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/object_detection.h
+[6.367s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.372s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/scene_perception.h
+[6.378s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/task_target.h
+[6.383s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/set_io__functions.h
+[6.388s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/set_io__struct.h
+[6.394s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/set_io__type_support.h
+[6.398s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/start_task__functions.h
+[6.404s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/start_task__struct.h
+[6.409s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/start_task__type_support.h
+[6.414s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/set_io.h
+[6.419s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/start_task.h
+[6.425s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/environment/library_path.sh
+[6.430s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/environment/library_path.dsv
+[6.435s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/execute_task__rosidl_typesupport_fastrtps_c.h
+[6.441s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/follow_cartesian_trajectory__rosidl_typesupport_fastrtps_c.h
+[6.446s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/object_detection__rosidl_typesupport_fastrtps_c.h
+[6.451s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/scene_perception__rosidl_typesupport_fastrtps_c.h
+[6.457s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/task_target__rosidl_typesupport_fastrtps_c.h
+[6.462s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.467s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/set_io__rosidl_typesupport_fastrtps_c.h
+[6.472s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/start_task__rosidl_typesupport_fastrtps_c.h
+[6.478s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/execute_task__rosidl_typesupport_introspection_c.h
+[6.483s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/follow_cartesian_trajectory__rosidl_typesupport_introspection_c.h
+[6.488s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/object_detection__rosidl_typesupport_introspection_c.h
+[6.493s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/scene_perception__rosidl_typesupport_introspection_c.h
+[6.498s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/task_target__rosidl_typesupport_introspection_c.h
+[6.504s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.509s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/set_io__rosidl_typesupport_introspection_c.h
+[6.514s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/start_task__rosidl_typesupport_introspection_c.h
+[6.519s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/execute_task__builder.hpp
+[6.524s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/execute_task__struct.hpp
+[6.530s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/execute_task__traits.hpp
+[6.535s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/execute_task__type_support.hpp
+[6.541s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/follow_cartesian_trajectory__builder.hpp
+[6.547s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/follow_cartesian_trajectory__struct.hpp
+[6.552s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/follow_cartesian_trajectory__traits.hpp
+[6.558s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/follow_cartesian_trajectory__type_support.hpp
+[6.563s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/execute_task.hpp
+[6.568s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/follow_cartesian_trajectory.hpp
+[6.573s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/object_detection__builder.hpp
+[6.578s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/object_detection__struct.hpp
+[6.583s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/object_detection__traits.hpp
+[6.589s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/object_detection__type_support.hpp
+[6.594s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/scene_perception__builder.hpp
+[6.600s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/scene_perception__struct.hpp
+[6.605s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/scene_perception__traits.hpp
+[6.610s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/scene_perception__type_support.hpp
+[6.615s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/task_target__builder.hpp
+[6.620s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/task_target__struct.hpp
+[6.625s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/task_target__traits.hpp
+[6.630s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/task_target__type_support.hpp
+[6.636s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/object_detection.hpp
+[6.641s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.646s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/scene_perception.hpp
+[6.651s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/task_target.hpp
+[6.657s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/set_io__builder.hpp
+[6.662s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/set_io__struct.hpp
+[6.667s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/set_io__traits.hpp
+[6.674s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/set_io__type_support.hpp
+[6.679s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/start_task__builder.hpp
+[6.684s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/start_task__struct.hpp
+[6.689s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/start_task__traits.hpp
+[6.694s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/start_task__type_support.hpp
+[6.699s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/set_io.hpp
+[6.705s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/start_task.hpp
+[6.710s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/execute_task__rosidl_typesupport_fastrtps_cpp.hpp
+[6.715s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/follow_cartesian_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[6.720s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/object_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[6.726s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/scene_perception__rosidl_typesupport_fastrtps_cpp.hpp
+[6.731s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/task_target__rosidl_typesupport_fastrtps_cpp.hpp
+[6.736s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.742s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/set_io__rosidl_typesupport_fastrtps_cpp.hpp
+[6.747s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/start_task__rosidl_typesupport_fastrtps_cpp.hpp
+[6.753s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/execute_task__rosidl_typesupport_introspection_cpp.hpp
+[6.758s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/action/detail/follow_cartesian_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[6.763s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/object_detection__rosidl_typesupport_introspection_cpp.hpp
+[6.768s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/scene_perception__rosidl_typesupport_introspection_cpp.hpp
+[6.773s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/msg/detail/task_target__rosidl_typesupport_introspection_cpp.hpp
+[6.778s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/set_io__rosidl_typesupport_introspection_cpp.hpp
+[6.784s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/include/grasp_kitchen_interfaces/grasp_kitchen_interfaces/srv/detail/start_task__rosidl_typesupport_introspection_cpp.hpp
+[6.789s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/environment/pythonpath.sh
+[6.794s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/environment/pythonpath.dsv
+[6.800s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+[6.804s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+[6.810s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+[6.815s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+[6.820s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/__init__.py
+[6.825s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/_grasp_kitchen_interfaces_s.ep.rosidl_typesupport_c.c
+[6.831s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/_grasp_kitchen_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.836s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/_grasp_kitchen_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.841s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/action/__init__.py
+[6.847s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/action/_execute_task.py
+[6.852s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/action/_execute_task_s.c
+[6.857s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/action/_follow_cartesian_trajectory.py
+[6.862s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/action/_follow_cartesian_trajectory_s.c
+[6.868s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/grasp_kitchen_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.873s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/grasp_kitchen_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.878s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/grasp_kitchen_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.883s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/libgrasp_kitchen_interfaces__rosidl_generator_py.so
+[6.888s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/msg/__init__.py
+[6.893s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/msg/_object_detection.py
+[6.906s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/msg/_object_detection_s.c
+[6.911s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/msg/_scene_perception.py
+[6.916s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/msg/_scene_perception_s.c
+[6.921s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/msg/_task_target.py
+[6.926s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/msg/_task_target_s.c
+[6.931s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/srv/__init__.py
+[6.937s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/srv/_set_io.py
+[6.942s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/srv/_set_io_s.c
+[6.947s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/srv/_start_task.py
+[6.953s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/srv/_start_task_s.c
+[6.959s] -- Up-to-date symlink: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/grasp_kitchen_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.959s] -- Up-to-date symlink: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/grasp_kitchen_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.959s] -- Up-to-date symlink: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/grasp_kitchen_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.959s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/msg/ObjectDetection.idl
+[6.964s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/msg/ScenePerception.idl
+[6.970s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/msg/TaskTarget.idl
+[6.975s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/srv/SetIO.idl
+[6.980s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/srv/StartTask.idl
+[6.986s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/action/ExecuteTask.idl
+[6.991s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/action/FollowCartesianTrajectory.idl
+[6.996s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/msg/ObjectDetection.msg
+[7.001s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/msg/ScenePerception.msg
+[7.007s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/msg/TaskTarget.msg
+[7.012s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/srv/SetIO.srv
+[7.017s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/srv/SetIO_Request.msg
+[7.023s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/srv/SetIO_Response.msg
+[7.028s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/srv/StartTask.srv
+[7.033s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/srv/StartTask_Request.msg
+[7.039s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/srv/StartTask_Response.msg
+[7.044s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/action/ExecuteTask.action
+[7.049s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/action/FollowCartesianTrajectory.action
+[7.055s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/ament_index/resource_index/package_run_dependencies/grasp_kitchen_interfaces
+[7.060s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/ament_index/resource_index/parent_prefix_path/grasp_kitchen_interfaces
+[7.065s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/environment/ament_prefix_path.sh
+[7.070s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/environment/ament_prefix_path.dsv
+[7.076s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/environment/path.sh
+[7.081s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/environment/path.dsv
+[7.087s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/local_setup.bash
+[7.092s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/local_setup.sh
+[7.098s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/local_setup.zsh
+[7.103s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/local_setup.dsv
+[7.108s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/package.dsv
+[7.113s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/ament_index/resource_index/packages/grasp_kitchen_interfaces
+[7.119s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.124s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.129s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.135s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.140s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.145s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.151s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.156s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/grasp_kitchen_interfacesConfig.cmake
+[7.161s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/grasp_kitchen_interfacesConfig-version.cmake
+[7.167s] -- Symlinking: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/package.xml
+[7.173s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_generator_c.so
+[7.173s] -- Set runtime path of "/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_generator_c.so" to ""
+[7.173s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.173s] -- Set runtime path of "/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.173s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_typesupport_introspection_c.so
+[7.173s] -- Set runtime path of "/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.174s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_typesupport_c.so
+[7.174s] -- Set runtime path of "/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_typesupport_c.so" to ""
+[7.174s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.174s] -- Set runtime path of "/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.174s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.174s] -- Set runtime path of "/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.174s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_typesupport_cpp.so
+[7.174s] -- Set runtime path of "/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.210s] Listing '/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces'...
+[7.210s] Compiling '/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/__init__.py'...
+[7.211s] Listing '/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/action'...
+[7.211s] Compiling '/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/action/__init__.py'...
+[7.211s] Compiling '/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/action/_execute_task.py'...
+[7.211s] Compiling '/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/action/_follow_cartesian_trajectory.py'...
+[7.211s] Listing '/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/msg'...
+[7.211s] Compiling '/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/msg/__init__.py'...
+[7.211s] Compiling '/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/msg/_object_detection.py'...
+[7.211s] Compiling '/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/msg/_scene_perception.py'...
+[7.211s] Compiling '/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/msg/_task_target.py'...
+[7.211s] Listing '/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/srv'...
+[7.211s] Compiling '/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/srv/__init__.py'...
+[7.211s] Compiling '/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/srv/_set_io.py'...
+[7.211s] Compiling '/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/local/lib/python3.10/dist-packages/grasp_kitchen_interfaces/srv/_start_task.py'...
+[7.213s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_generator_py.so
+[7.213s] -- Set runtime path of "/home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/lib/libgrasp_kitchen_interfaces__rosidl_generator_py.so" to ""
+[7.213s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/export_grasp_kitchen_interfaces__rosidl_generator_cExport.cmake
+[7.214s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/export_grasp_kitchen_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.214s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/export_grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.214s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/export_grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.214s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/grasp_kitchen_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.214s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/grasp_kitchen_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.215s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/grasp_kitchen_interfaces__rosidl_typesupport_cExport.cmake
+[7.215s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/grasp_kitchen_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.215s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/export_grasp_kitchen_interfaces__rosidl_generator_cppExport.cmake
+[7.215s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/export_grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.215s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/export_grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.215s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/grasp_kitchen_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.215s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/grasp_kitchen_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.215s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/grasp_kitchen_interfaces__rosidl_typesupport_cppExport.cmake
+[7.215s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/grasp_kitchen_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.215s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/export_grasp_kitchen_interfaces__rosidl_generator_pyExport.cmake
+[7.215s] -- Installing: /home/kim/projects/dexchef_ws/install/grasp_kitchen_interfaces/share/grasp_kitchen_interfaces/cmake/export_grasp_kitchen_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.217s] Invoked command in '/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces

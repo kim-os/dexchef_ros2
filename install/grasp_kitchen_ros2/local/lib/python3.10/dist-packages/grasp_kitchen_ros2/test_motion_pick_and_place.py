@@ -1,0 +1,1 @@
+/home/kim/projects/dexchef_ws/src/grasp_kitchen_ros2/grasp_kitchen_ros2/test_motion_pick_and_place.py

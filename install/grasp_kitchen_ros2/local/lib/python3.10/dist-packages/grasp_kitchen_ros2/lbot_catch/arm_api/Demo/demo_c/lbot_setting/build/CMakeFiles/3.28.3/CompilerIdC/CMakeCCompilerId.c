@@ -1,0 +1,1 @@
+/home/kim/projects/dexchef_ws/src/grasp_kitchen_ros2/grasp_kitchen_ros2/lbot_catch/arm_api/Demo/demo_c/lbot_setting/build/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.c

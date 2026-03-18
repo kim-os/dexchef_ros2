@@ -1,0 +1,43 @@
+# -----------------------------------------------------------------------------
+# grasp_kitchen_ros2 — Python dependencies (pip)
+# -----------------------------------------------------------------------------
+# This file lists only pip-installable packages. ROS2 packages (rclpy, cv_bridge,
+# sensor_msgs, geometry_msgs, etc.) are provided by your ROS2 install and
+# colcon build; install them via:
+#   source /opt/ros/<distro>/setup.bash
+#   colcon build --packages-select grasp_kitchen_ros2
+#   source install/setup.bash
+#
+# Prerequisites:
+#   - Python 3.10+
+#   - ROS2 (Humble or newer recommended)
+#
+# Orbbec camera driver (optional):
+#   This package does NOT include the Orbbec hardware driver. camera_driver_node
+#   only bridges topics (e.g. /orbbec/* -> camera/*). To use a physical Orbbec
+#   camera, install and run the official Orbbec ROS2 driver separately:
+#     https://github.com/orbbec/OrbbecSDK_ROS2
+#   Clone into your workspace, colcon build, then launch their node. If that
+#   driver or your setup requires the Orbbec Python SDK in the same env, install:
+#     pip install pyorbbecsdk2
+# -----------------------------------------------------------------------------
+
+# --- Core (required for vision pipeline, motion, planning) ---
+numpy>=1.24,<3
+opencv-python>=4.8
+scipy>=1.10
+
+# --- Config (YAML parameters / launch overrides) ---
+PyYAML>=6.0
+
+# --- Perception: SAM3 backend (required when backend_type=sam3) ---
+torch>=2.0
+transformers>=4.36
+Pillow>=9.5
+
+# --- Testing (optional) ---
+pytest>=7.0
+
+# --- Optional: Orbbec camera (only if you run Orbbec ROS2 driver in this env) ---
+# Uncomment if the Orbbec ROS2 driver (OrbbecSDK_ROS2) needs the Python SDK:
+# pyorbbecsdk2>=2.0

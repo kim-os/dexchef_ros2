@@ -1,0 +1,1 @@
+/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/rosidl_typesupport_introspection_c/grasp_kitchen_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h

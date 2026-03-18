@@ -1,0 +1,30 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/action/execute_task__type_support.cpp.o"
+  "CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/action/execute_task__type_support.cpp.o.d"
+  "CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/action/follow_cartesian_trajectory__type_support.cpp.o"
+  "CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/action/follow_cartesian_trajectory__type_support.cpp.o.d"
+  "CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/msg/object_detection__type_support.cpp.o"
+  "CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/msg/object_detection__type_support.cpp.o.d"
+  "CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/msg/scene_perception__type_support.cpp.o"
+  "CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/msg/scene_perception__type_support.cpp.o.d"
+  "CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/msg/task_target__type_support.cpp.o"
+  "CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/msg/task_target__type_support.cpp.o.d"
+  "CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/srv/set_io__type_support.cpp.o"
+  "CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/srv/set_io__type_support.cpp.o.d"
+  "CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/srv/start_task__type_support.cpp.o"
+  "CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_kitchen_interfaces/srv/start_task__type_support.cpp.o.d"
+  "libgrasp_kitchen_interfaces__rosidl_typesupport_c.pdb"
+  "libgrasp_kitchen_interfaces__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/grasp_kitchen_interfaces/action/execute_task__type_support.cpp"
+  "rosidl_typesupport_c/grasp_kitchen_interfaces/action/follow_cartesian_trajectory__type_support.cpp"
+  "rosidl_typesupport_c/grasp_kitchen_interfaces/msg/object_detection__type_support.cpp"
+  "rosidl_typesupport_c/grasp_kitchen_interfaces/msg/scene_perception__type_support.cpp"
+  "rosidl_typesupport_c/grasp_kitchen_interfaces/msg/task_target__type_support.cpp"
+  "rosidl_typesupport_c/grasp_kitchen_interfaces/srv/set_io__type_support.cpp"
+  "rosidl_typesupport_c/grasp_kitchen_interfaces/srv/start_task__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/grasp_kitchen_interfaces__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

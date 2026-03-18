@@ -1,0 +1,12 @@
+{
+  "package_name": "grasp_kitchen_interfaces",
+  "non_idl_tuples": [
+    "/home/kim/projects/dexchef_ws/src/grasp_kitchen_interfaces:msg/ObjectDetection.msg",
+    "/home/kim/projects/dexchef_ws/src/grasp_kitchen_interfaces:msg/ScenePerception.msg",
+    "/home/kim/projects/dexchef_ws/src/grasp_kitchen_interfaces:msg/TaskTarget.msg",
+    "/home/kim/projects/dexchef_ws/src/grasp_kitchen_interfaces:srv/SetIO.srv",
+    "/home/kim/projects/dexchef_ws/src/grasp_kitchen_interfaces:srv/StartTask.srv",
+    "/home/kim/projects/dexchef_ws/src/grasp_kitchen_interfaces:action/ExecuteTask.action",
+    "/home/kim/projects/dexchef_ws/src/grasp_kitchen_interfaces:action/FollowCartesianTrajectory.action"
+  ]
+}

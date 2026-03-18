@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4f4b4eb76fbcf6336456.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "grasp_kitchen_interfaces__py",
+					"jsonFile" : "directory-grasp_kitchen_interfaces__py-4f9b5a2a5bff03f0b9a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces/grasp_kitchen_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "grasp_kitchen_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_grasp_kitchen_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_grasp_kitchen_interfaces_egg-a7823b7a4e86157193c4.json",
+					"name" : "ament_cmake_python_build_grasp_kitchen_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_grasp_kitchen_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_grasp_kitchen_interfaces-a422d8d4147442fadbe5.json",
+					"name" : "ament_cmake_python_symlink_grasp_kitchen_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_kitchen_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_kitchen_interfaces-a21d57e1df0434dd2e5f.json",
+					"name" : "grasp_kitchen_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_kitchen_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_kitchen_interfaces__cpp-6c63acafa1521278ebc3.json",
+					"name" : "grasp_kitchen_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grasp_kitchen_interfaces__py::@75cba9033063ca3ddd4a",
+					"jsonFile" : "target-grasp_kitchen_interfaces__py-1f59d72af99f646d4b5f.json",
+					"name" : "grasp_kitchen_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_kitchen_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_kitchen_interfaces__rosidl_generator_c-11be835d8fd819bebcbf.json",
+					"name" : "grasp_kitchen_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_kitchen_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_kitchen_interfaces__rosidl_generator_py-e7097a9450ee90a92bcf.json",
+					"name" : "grasp_kitchen_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_kitchen_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_kitchen_interfaces__rosidl_typesupport_c-8745ec0ca2dc354fb171.json",
+					"name" : "grasp_kitchen_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_kitchen_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_kitchen_interfaces__rosidl_typesupport_c__pyext-256472e0ff47af2c01eb.json",
+					"name" : "grasp_kitchen_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_kitchen_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_kitchen_interfaces__rosidl_typesupport_cpp-a058a3261053f18798a7.json",
+					"name" : "grasp_kitchen_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c-8c6c8366fad22f628610.json",
+					"name" : "grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c__pyext-4c52b45edc5d833ef2fa.json",
+					"name" : "grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cpp-dcf6ee95aec85dc44ead.json",
+					"name" : "grasp_kitchen_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_kitchen_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_kitchen_interfaces__rosidl_typesupport_introspection_c-0318a1747f6500d513df.json",
+					"name" : "grasp_kitchen_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_kitchen_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_kitchen_interfaces__rosidl_typesupport_introspection_c__pyext-9f7a1f68fb85ff2a6df1.json",
+					"name" : "grasp_kitchen_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_kitchen_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_kitchen_interfaces__rosidl_typesupport_introspection_cpp-6bfc245c6fa7cf3c3422.json",
+					"name" : "grasp_kitchen_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grasp_kitchen_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grasp_kitchen_interfaces_uninstall-d988fc86eb7863e4943d.json",
+					"name" : "grasp_kitchen_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2ae39837049c034adadc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kim/projects/dexchef_ws/build/grasp_kitchen_interfaces",
+		"source" : "/home/kim/projects/dexchef_ws/src/grasp_kitchen_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

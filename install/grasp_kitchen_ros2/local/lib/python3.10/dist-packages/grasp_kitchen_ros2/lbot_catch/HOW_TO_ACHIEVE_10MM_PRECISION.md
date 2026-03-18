@@ -1,0 +1,1 @@
+/home/kim/projects/dexchef_ws/src/grasp_kitchen_ros2/grasp_kitchen_ros2/lbot_catch/HOW_TO_ACHIEVE_10MM_PRECISION.md
